@@ -135,7 +135,7 @@ public class _08_CountryTest {
 
                 .then()
                 .log().body()
-                .statusCode(500) // Jenkins için hataya döştürüldü
+                .statusCode(200) // Jenkins için hataya döştürüldü
         ;
     }
 
